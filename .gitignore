@@ -1,0 +1,9 @@
+# Public repository is metadata-only. APK goes to Release assets, not Git history.
+*
+!README.md
+!.gitignore
+!update.json
+!release-notes/
+!release-notes/*.md
+!licenses/
+!licenses/**
