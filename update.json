@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "applicationId": "tv.openmedia.app",
+  "versionCode": 139,
+  "versionName": "0.15.26.5",
+  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.26.5/OpenMediaTV-0.15.26.5-public-armeabi-v7a-release.apk",
+  "bytes": 31240889,
+  "sha256": "8890ada41b12157383740bc9f14961b05cdedd84af8df54c1e0f508d06c3ad4e",
+  "minSdk": 24,
+  "abi": "armeabi-v7a",
+  "notes": "TorBox opcional, favoritos por perfil, Hydra Torrents, subtítulos de Subtitulamos.tv para series y mejoras de carátulas. APK pública sin claves privadas TMDB/TheTVDB; conserva las claves previamente guardadas. Instala sin desinstalar."
+}
