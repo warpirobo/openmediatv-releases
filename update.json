@@ -8,5 +8,5 @@
   "sha256": "5b50952310655aae430b2b65ae7e379834fe5aff454bdf23d690f4e2d580d12c",
   "minSdk": 24,
   "abi": "armeabi-v7a",
-  "notes": "TorBox: Mis torrents con índice local, búsqueda y carátulas; filtros de resolución y edición; temporadas y episodios con imágenes; foco vertical contenido en el módulo. PlavioHD directo y addons HTTPS configurables. Paneles del reproductor sin botones superiores redundantes. APK pública sin claves privadas TMDB/TheTVDB; conserva las previamente guardadas. Instala sin desinstalar."
+  "notes": "TorBox: locally indexed My torrents with search and artwork, resolution/edition filters, graphical seasons and episodes, and contained vertical focus. Direct PlavioHD and configurable HTTPS addons. Redundant player-panel header buttons removed. Public APK excludes private TMDB/TheTVDB keys and retains previously saved registrations. Update without uninstalling."
 }
