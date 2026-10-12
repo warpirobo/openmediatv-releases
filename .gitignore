@@ -7,3 +7,5 @@
 !release-notes/*.md
 !licenses/
 !licenses/**
+!.github/
+!.github/FUNDING.yml
