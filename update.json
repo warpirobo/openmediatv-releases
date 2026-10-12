@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "applicationId": "tv.openmedia.app",
-  "versionCode": 139,
-  "versionName": "0.15.26.5",
-  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.26.5/OpenMediaTV-0.15.26.5-public-armeabi-v7a-release.apk",
+  "versionCode": 140,
+  "versionName": "0.15.26.6",
+  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.26.6/OpenMediaTV-0.15.26.6-public-armeabi-v7a-release.apk",
   "bytes": 31240889,
-  "sha256": "8890ada41b12157383740bc9f14961b05cdedd84af8df54c1e0f508d06c3ad4e",
+  "sha256": "d4b92f4146b5b2b0d534c893105d7a6a2b6e6b9c9962c0a83c8ccf831f65cdf3",
   "minSdk": 24,
   "abi": "armeabi-v7a",
-  "notes": "TorBox opcional, favoritos por perfil, Hydra Torrents, subtítulos de Subtitulamos.tv para series y mejoras de carátulas. APK pública sin claves privadas TMDB/TheTVDB; conserva las claves previamente guardadas. Instala sin desinstalar."
+  "notes": "Identificación de nombres Unicode especiales, orden de TorBox por fecha completa de estreno y carátulas en Continuar viendo. Diagnóstico adicional del decodificador alternativo. APK pública sin claves privadas TMDB/TheTVDB; conserva las claves previamente guardadas. Instala sin desinstalar."
 }
