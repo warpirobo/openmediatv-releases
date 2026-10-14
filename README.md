@@ -9,7 +9,7 @@
 
 Arios TV is a remote-first media library and player for **Android TV and Fire TV**.
 Browse your rclone sources, identify movies and series, resume playback, and manage
-favorites and watch history per profile. IPTV and TorBox are optional services.
+favorites and watch history per profile. IPTV is an optional service.
 
 ## Features
 
@@ -18,9 +18,6 @@ favorites and watch history per profile. IPTV and TorBox are optional services.
 - **Playback:** Media3 / ExoPlayer, ASS rendering with libass, Custom OpenHub subtitle styling and track selection. FFmpeg provides alternative audio decoding when applicable; compatibility depends on the file, device and audio setup.
 - **Profiles:** separate history, progress and favorites, child-profile options and optional PINs.
 - **Optional IPTV:** remote TXT / M3U playlists, search, favorites and multiple sources per channel.
-- **Optional TorBox:** movie, series and anime catalogs, My torrents, favorites, resume playback and language, resolution and edition filters. Season and episode artwork when available.
-- **External providers:** Torrentio, Comet, Hydra, MediaFusion and configurable addons. DeepFlix and PlavioHD provide direct HTTPS links outside TorBox's cache. TorBox credentials are not shared with these addons.
-- **Online subtitles:** OpenSubtitles and Subtitulamos.tv for series, through the TorBox player. Availability and timing depend on the provider and release.
 - **Trackers:** optional SIMKL and WeTrakr integration.
 - **Maintenance:** selectable backups, playback diagnostics and in-app updates.
 
@@ -29,7 +26,7 @@ favorites and watch history per profile. IPTV and TorBox are optional services.
 1. Open [the latest release](https://github.com/warpirobo/openmediatv-releases/releases/latest).
 2. Download the **public-armeabi-v7a-release.apk** TV installer.
 3. Allow installation from your download tool and confirm in Android.
-4. Choose your language and configure sources. Enable optional services under **Settings → IPTV · TorBox**.
+4. Choose your language and configure sources. Enable optional services under **Settings**.
 
 Minimum requirement: **Android 7 / API 24**. This channel distributes the TV
 variant, not the mobile version with Cast. Manufacturer restrictions may apply.
@@ -41,8 +38,7 @@ when Android prompts you. After a successful installation, the app cleans up the
 installer it downloaded. It does not delete APKs you saved manually elsewhere.
 
 **Update without uninstalling.** Existing settings, accounts and previously saved
-provider registrations are retained. Data from the old separate TorBox app is not
-automatically migrated into the normal app.
+provider registrations are retained.
 
 ## Provider keys and privacy
 
@@ -59,8 +55,7 @@ respective providers. Arios TV does not provide preloaded content or third-party
 ## Limits and availability
 
 - Quality and language filters use source labels; a catalog poster does not guarantee an available 4K stream.
-- My torrents progressively indexes up to 10,000 summaries per account and displays a limit warning. The initial pass may take time; subsequent visits use the local index.
-- PlavioHD live-sports catalogs are not imported in this movie/series module.
+- IPTV includes optional PlavioHD live-sports browsing with event artwork and source selection. Availability depends on the provider.
 - FMHY websites are not all compatible addons and are not automatically converted into providers.
 - Playback capabilities and service availability depend on the device and provider. Release notes describe the scope of verification.
 
@@ -77,7 +72,7 @@ See **About → Licenses** in the app. Release download assets contain only APKs
 
 This software uses FFmpeg libraries under LGPL 2.1 or later. Their unchanged
 [corresponding source and build recipes](https://github.com/warpirobo/openmediatv-releases/raw/refs/heads/main/licenses/ffmpeg/OpenMediaTV-0.15.26.5-FFmpeg-source.zip)
-remain separately available for the published 0.15.26.5, 0.15.26.6 and 0.15.27 APKs.
+remain separately available for the published APKs, including 0.15.28, which uses the same native libraries.
 **This archive is third-party component source, not the Arios TV application source.**
 See [FFmpeg's distribution guidance](https://ffmpeg.org/legal.html).
 

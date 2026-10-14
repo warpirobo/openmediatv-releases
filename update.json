@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "applicationId": "tv.openmedia.app",
-  "versionCode": 141,
-  "versionName": "0.15.27",
-  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.27/OpenMediaTV-0.15.27-public-armeabi-v7a-release.apk",
-  "bytes": 31257273,
-  "sha256": "5b50952310655aae430b2b65ae7e379834fe5aff454bdf23d690f4e2d580d12c",
+  "versionCode": 144,
+  "versionName": "0.15.28",
+  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.28/OpenMediaTV-0.15.28-public-armeabi-v7a-release.apk",
+  "bytes": 31273657,
+  "sha256": "1e805009381b06fbc1a3b176fe6a08fb00ebbd21df8f22996b09fce1334631b5",
   "minSdk": 24,
   "abi": "armeabi-v7a",
-  "notes": "TorBox: locally indexed My torrents with search and artwork, resolution/edition filters, graphical seasons and episodes, and contained vertical focus. Direct PlavioHD and configurable HTTPS addons. Redundant player-panel header buttons removed. Public APK excludes private TMDB/TheTVDB keys and retains previously saved registrations. Update without uninstalling."
+  "notes": "Title descriptions with artwork, cast and in-app trailers; per-profile source playback preferences with manual fallback. IPTV Live Sports includes fitted channel/event artwork and compact information. Adaptive artwork cache and filename/focus hardening. Public APK excludes private TMDB/TheTVDB keys and retains previously saved registrations. Update without uninstalling."
 }
