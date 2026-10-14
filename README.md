@@ -79,6 +79,11 @@ See [FFmpeg's distribution guidance](https://ffmpeg.org/legal.html).
 External providers are independent of Arios TV. Their availability, terms and
 content rights are not controlled by this project.
 
+Technical badge artwork is referenced from [LeoneVZ — Elite-Badges](https://github.com/leonevz/Elite-Badges),
+loaded on demand with text fallback rather than bundled in the APK. Trademarks
+belong to their respective owners. Source labels are informational, not a verified
+media inventory or a guarantee of device compatibility.
+
 ## Support development
 
 [☕ Buy me a coffee through PayPal](https://www.paypal.com/paypalme/ITARIOS)
