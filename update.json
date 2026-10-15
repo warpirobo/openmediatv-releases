@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "applicationId": "tv.openmedia.app",
-  "versionCode": 145,
-  "versionName": "0.15.28.1",
-  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.28.1/OpenMediaTV-0.15.28.1-public-armeabi-v7a-release.apk",
+  "versionCode": 146,
+  "versionName": "0.15.28.2",
+  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.28.2/OpenMediaTV-0.15.28.2-public-armeabi-v7a-release.apk",
   "bytes": 31281849,
-  "sha256": "07b31fdf268a8be70a175bd63689592fb3dbf245fd024922d5408f4488080616",
+  "sha256": "50dd5e7f535143ceda81c62bb34afdc70121886a80bc12ec168a31e0739129f5",
   "minSdk": 24,
   "abi": "armeabi-v7a",
-  "notes": "Compact technical source badges for declared resolution, HDR/video format, audio format, channel layout and file size. Bounded artwork loading with readable text fallback; source labels are hints, not a media probe. Playback and native libraries unchanged. Public APK excludes private TMDB/TheTVDB keys and retains previously saved registrations. Update without uninstalling."
+  "notes": "Simplified provider checkboxes and full-screen library-style title descriptions with Sources, My list and Trailer actions. Catalogs, searches, seasons and episodes hide future or undated releases using the device's current full date. PlavioHD remains in IPTV. Native playback and rclone configuration import unchanged. Public APK excludes private TMDB/TheTVDB keys and retains previously saved registrations. Update without uninstalling."
 }
