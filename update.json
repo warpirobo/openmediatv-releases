@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "applicationId": "tv.openmedia.app",
-  "versionCode": 146,
-  "versionName": "0.15.28.2",
-  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.28.2/OpenMediaTV-0.15.28.2-public-armeabi-v7a-release.apk",
-  "bytes": 31281849,
-  "sha256": "50dd5e7f535143ceda81c62bb34afdc70121886a80bc12ec168a31e0739129f5",
+  "versionCode": 147,
+  "versionName": "0.15.29",
+  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.29/OpenMediaTV-0.15.29-public-armeabi-v7a-release.apk",
+  "bytes": 31290041,
+  "sha256": "2007f4f7b0440ee7efa255fd9233056cdec135571e1829805c021731c5fe3bb1",
   "minSdk": 24,
   "abi": "armeabi-v7a",
-  "notes": "Simplified provider checkboxes and full-screen library-style title descriptions with Sources, My list and Trailer actions. Catalogs, searches, seasons and episodes hide future or undated releases using the device's current full date. PlavioHD remains in IPTV. Native playback and rclone configuration import unchanged. Public APK excludes private TMDB/TheTVDB keys and retains previously saved registrations. Update without uninstalling."
+  "notes": "Integrated download/update consent and official eligible Android 12+ self-updates, with required system confirmation fallback. Independent idle-time removal audit requires two complete absence checks at least 15 minutes apart; connection errors never authorize removal. User Preferences includes Removed content history (30 days, up to 1,000 entries). Native playback and existing identification/delta behavior are preserved. Public APK excludes private TMDB/TheTVDB keys and retains saved registrations. Update without uninstalling."
 }

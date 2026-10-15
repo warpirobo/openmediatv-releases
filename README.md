@@ -19,7 +19,7 @@ favorites and watch history per profile. IPTV is an optional service.
 - **Profiles:** separate history, progress and favorites, child-profile options and optional PINs.
 - **Optional IPTV:** remote TXT / M3U playlists, search, favorites and multiple sources per channel.
 - **Trackers:** optional SIMKL and WeTrakr integration.
-- **Maintenance:** selectable backups, playback diagnostics and in-app updates.
+- **Maintenance:** selectable backups, playback diagnostics, conservative source-removal detection with a removal history, and in-app updates.
 
 ## Download and install
 
@@ -33,12 +33,20 @@ variant, not the mobile version with Cast. Manufacturer restrictions may apply.
 
 ## Update without losing your settings
 
-Open **Settings → App updates**, download the update and confirm installation
-when Android prompts you. After a successful installation, the app cleans up the
+Open **Settings → App updates** and choose **Download and update**. Eligible
+Android 12+ devices can complete self-updates without another confirmation;
+older Android/Fire OS or OEM policies may require the system's installation dialog.
+Security prompts are never bypassed. After a successful installation, the app cleans up the
 installer it downloaded. It does not delete APKs you saved manually elsewhere.
 
 **Update without uninstalling.** Existing settings, accounts and previously saved
 provider registrations are retained.
+
+**User Preferences → Removed content** shows confirmed source removals from the
+last 30 days, up to 1,000 records. Cleanup uses bounded idle-time checks and requires
+two complete absence observations at least 15 minutes apart. Connection failures,
+timeouts and unreadable roots do not authorize removal. Remote files, watch history,
+favorites and tracker records are not deleted. Detection is gradual, not immediate.
 
 ## Provider keys and privacy
 
