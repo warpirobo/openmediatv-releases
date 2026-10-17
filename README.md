@@ -16,6 +16,7 @@ favorites and watch history per profile. IPTV is an optional service.
 - **Integrated rclone:** OneDrive / SharePoint, Google Drive, crypt, combine and other compatible remotes. Import `rclone.conf` or use guided setup, without mounting drives.
 - **Visual library:** movies, series, episodes, optional collections and multiple versions of the same title. Metadata and artwork from TMDB, TheTVDB and compatible providers.
 - **Playback:** Media3 / ExoPlayer, ASS rendering with libass, Custom OpenHub subtitle styling and track selection. FFmpeg provides alternative audio decoding when applicable; compatibility depends on the file, device and audio setup.
+- **Online subtitles:** automatic preferred-language lookup for identified movies and episodes with no subtitle tracks, using OpenSubtitles and exact-match series fallback through Subtitulamos.tv. Existing tracks and manual choices take priority; availability and timing depend on the subtitle release.
 - **Profiles:** separate history, progress and favorites, child-profile options and optional PINs.
 - **Optional IPTV:** remote TXT / M3U playlists, search, favorites and multiple sources per channel.
 - **Trackers:** optional SIMKL and WeTrakr integration.

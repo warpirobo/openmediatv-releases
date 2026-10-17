@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "applicationId": "tv.openmedia.app",
-  "versionCode": 147,
-  "versionName": "0.15.29",
-  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.29/OpenMediaTV-0.15.29-public-armeabi-v7a-release.apk",
-  "bytes": 31290041,
-  "sha256": "2007f4f7b0440ee7efa255fd9233056cdec135571e1829805c021731c5fe3bb1",
+  "versionCode": 151,
+  "versionName": "0.15.31",
+  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.31/OpenMediaTV-0.15.31-public-armeabi-v7a-release.apk",
+  "bytes": 31310521,
+  "sha256": "a4bb9643393e1ffd279549ce98fa0cbf8c1ad8ad843ae7dc0efff57eadb5d8d1",
   "minSdk": 24,
   "abi": "armeabi-v7a",
-  "notes": "Integrated download/update consent and official eligible Android 12+ self-updates, with required system confirmation fallback. Independent idle-time removal audit requires two complete absence checks at least 15 minutes apart; connection errors never authorize removal. User Preferences includes Removed content history (30 days, up to 1,000 entries). Native playback and existing identification/delta behavior are preserved. Public APK excludes private TMDB/TheTVDB keys and retains saved registrations. Update without uninstalling."
+  "notes": "Automatic preferred-language subtitle lookup for identified movies and episodes with no subtitle tracks, preserving embedded tracks, manual choices and active preference pairing. Validated HTTPS subtitle downloads and improved idle source-removal auditing/diagnostics. Native audio/libass, rclone.conf import and backup limits are preserved. Public APK omits private metadata keys and retains saved registrations. Update without uninstalling."
 }
