@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "applicationId": "tv.openmedia.app",
-  "versionCode": 162,
-  "versionName": "0.15.32",
-  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.32/OpenMediaTV-0.15.32-public-armeabi-v7a-release.apk",
-  "bytes": 32622047,
-  "sha256": "5d5bdc20ee1adddea28ac14aaaded5f004d47194d5ca69cfe40af030f2aa92f1",
+  "versionCode": 163,
+  "versionName": "0.15.32.1",
+  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.32.1/OpenMediaTV-0.15.32.1-public-armeabi-v7a-release.apk",
+  "bytes": 31326905,
+  "sha256": "a76f7b7c1d033585d08d74904394e7f0ba57700b466e1444db5b97a9296a36b2",
   "minSdk": 24,
   "abi": "armeabi-v7a",
-  "notes": "Improved Spanish subtitle discovery with HispaSubs dialect labels and secure local QR setup for supported optional providers, with TV confirmation, explicit consent and encrypted saved settings. Embedded subtitle priority, manual choices, native audio/libass and rclone.conf import are preserved. Public APK omits private metadata keys and retains saved registrations. Update without uninstalling."
+  "notes": "Simpler optional integration setup through official HTTPS authorization pages, without local certificate exceptions. Explicit consent, TV confirmation and encrypted settings are retained. Improved preference matching and manual fallback handling. Native audio/libass, subtitle discovery and rclone.conf import are preserved. Public APK omits private metadata keys and retains saved registrations. Update without uninstalling."
 }
