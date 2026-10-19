@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "applicationId": "tv.openmedia.app",
-  "versionCode": 163,
-  "versionName": "0.15.32.1",
-  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.32.1/OpenMediaTV-0.15.32.1-public-armeabi-v7a-release.apk",
-  "bytes": 31326905,
-  "sha256": "a76f7b7c1d033585d08d74904394e7f0ba57700b466e1444db5b97a9296a36b2",
+  "versionCode": 164,
+  "versionName": "0.15.32.2",
+  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.32.2/OpenMediaTV-0.15.32.2-public-armeabi-v7a-release.apk",
+  "bytes": 31343289,
+  "sha256": "54811960dbd38c06f23b40f1ed885be44f4196cb8f49fd80631cf71fe94e6270",
   "minSdk": 24,
   "abi": "armeabi-v7a",
-  "notes": "Simpler optional integration setup through official HTTPS authorization pages, without local certificate exceptions. Explicit consent, TV confirmation and encrypted settings are retained. Improved preference matching and manual fallback handling. Native audio/libass, subtitle discovery and rclone.conf import are preserved. Public APK omits private metadata keys and retains saved registrations. Update without uninstalling."
+  "notes": "Improved automatic playback diagnostics for loading interruptions and source access errors, including passive Microsoft Graph and SharePoint observations. Rolling 30-day diagnostic history with a 20 MB total storage limit. Playback settings, audio decoding, scanning and rclone.conf import remain unchanged. This release diagnoses provider restrictions; it does not bypass them. Public APK omits private metadata keys and retains saved registrations. Update without uninstalling."
 }
