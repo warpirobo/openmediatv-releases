@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "applicationId": "tv.openmedia.app",
-  "versionCode": 176,
-  "versionName": "0.15.33",
-  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.33/OpenMediaTV-0.15.33-public-armeabi-v7a-release.apk",
-  "bytes": 32786150,
-  "sha256": "78292cdba85d8b86f44d3e32468be74ad6a5aeee7087e0c66159e69ad32a932a",
+  "versionCode": 177,
+  "versionName": "0.15.33.1",
+  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.33.1/OpenMediaTV-0.15.33.1-public-armeabi-v7a-release.apk",
+  "bytes": 32790358,
+  "sha256": "66eaeaa342ef74c5accdb58c0d635f27e2e3567113b787bcda036e25707a695c",
   "minSdk": 24,
   "abi": "armeabi-v7a",
-  "notes": "Expanded library and profile-history backup compatibility, retained history for titles added later, improved exact title matching and source/version selection, and fewer background interface interruptions. Existing rclone setup, OneDrive tuning and multichannel audio decoding are retained. Update without uninstalling. Public APK omits private metadata registrations and supports existing saved registrations. Keep a backup before migrating data."
+  "notes": "Playback startup hotfix: preserve buffered video on slow connections, prioritize playback over background monitoring and history migration, protect state when switching players, and clarify source/version selection with service icons. Update without uninstalling; no credential reimport, backup restore or library rescan required. Existing rclone transfer settings and native audio decoders remain unchanged. Public APK omits private metadata registrations and retains saved registrations."
 }
