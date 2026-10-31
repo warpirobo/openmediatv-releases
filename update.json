@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "applicationId": "tv.openmedia.app",
-  "versionCode": 192,
-  "versionName": "0.15.35",
-  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.35/OpenMediaTV-0.15.35-public-armeabi-v7a-release.apk",
-  "bytes": 32868351,
-  "sha256": "3af98a0aa9d6b0dd320c34a5a63f03f942c210d0bf4034f92547bc9e07c11420",
+  "versionCode": 193,
+  "versionName": "0.15.36",
+  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.36/OpenMediaTV-0.15.36-public-armeabi-v7a-release.apk",
+  "bytes": 32872447,
+  "sha256": "eb63ebbc1fde5426da1cb983a2093aed54128254f554697bbfb7c2264346981b",
   "minSdk": 24,
   "abi": "armeabi-v7a",
-  "notes": "Updated playback engine and certificate-security maintenance. Improved embedded subtitle fonts and source-date ordering for recently added movies and episodes. Existing multichannel audio components and OneDrive/SharePoint presets are preserved. Update without uninstalling; library data, watch history, profiles, connections and saved provider registrations are retained. Public APK omits private metadata registrations."
+  "notes": "Corrected source file date ordering for recently added movies and episodes. Improved portable watched history, including titles identified after restoration, with a history-only backup shortcut. Expanded Spanish subtitle-provider availability. Existing native audio components and OneDrive/SharePoint presets are preserved. Update without uninstalling; existing library data, profiles, connections and saved provider registrations are retained. Public APK omits private metadata registrations."
 }
