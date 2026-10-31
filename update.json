@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "applicationId": "tv.openmedia.app",
-  "versionCode": 194,
-  "versionName": "0.15.36.1",
-  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.36.1/OpenMediaTV-0.15.36.1-public-armeabi-v7a-release.apk",
-  "bytes": 32872447,
-  "sha256": "d5fc20f1f263f6bfe43241d6627f02ad868aa010f66b2d59d43aa5bee668c6b4",
+  "versionCode": 195,
+  "versionName": "0.15.36.2",
+  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.36.2/OpenMediaTV-0.15.36.2-public-armeabi-v7a-release.apk",
+  "bytes": 32876543,
+  "sha256": "8199a248c71c99d6e6fc5ff9d7b87fe061d5859c971543610ab77abbb7db9a4d",
   "minSdk": 24,
   "abi": "armeabi-v7a",
-  "notes": "Improved automatic library discovery and foreground catch-up. New content takes priority over metadata maintenance. Corrected retry delays after playback pauses scanning and added diagnostic timing. Preserves source-date ordering, OneDrive/SharePoint presets and native multichannel audio. Update without uninstalling; existing library data, profiles, connections and saved provider registrations are retained. Public APK omits private metadata registrations."
+  "notes": "Added a compact confirmation before seeking switches playback modes. Canceling preserves current playback. Fixed episode number and title visibility in series details, including series without cast information. Preserves source-date ordering, scanner improvements, OneDrive/SharePoint presets and native multichannel audio. Update without uninstalling; existing library data, profiles, connections and provider registrations are retained. Public APK omits private metadata registrations."
 }
