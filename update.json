@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "applicationId": "tv.openmedia.app",
-  "versionCode": 196,
-  "versionName": "0.15.37",
-  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.37/OpenMediaTV-0.15.37-public-armeabi-v7a-release.apk",
-  "bytes": 33413119,
-  "sha256": "fb4f00ef46ca0bbab958d5d76669cc4e585096a76e94afe3eaa960face2af37c",
+  "versionCode": 197,
+  "versionName": "0.15.38",
+  "url": "https://github.com/warpirobo/openmediatv-releases/releases/download/v0.15.38/OpenMediaTV-0.15.38-public-armeabi-v7a-release.apk",
+  "bytes": 33417215,
+  "sha256": "071e86624fca00c737f0c567108d533c5d66a3c3ad12fa4a8d81ed549304298d",
   "minSdk": 24,
   "abi": "armeabi-v7a",
-  "notes": "Updated the embedded rclone engine to 1.76.0 with upstream OneDrive and SharePoint fixes. Unstarted series now begin at the first numbered episode while existing resume progress is preserved. Includes a dependency performance correction and keeps existing playback and source settings. Update without uninstalling to retain library data, profiles, saved connections, and provider registrations. Public APK omits private metadata service registrations."
+  "notes": "Cleaner source names and improved scanner scheduling across connected media folders."
 }
